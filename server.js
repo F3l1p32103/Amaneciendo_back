@@ -72,7 +72,6 @@ estancoRoutes(app, upload);
 franquiciaRoutes(app);
 zoneRoutes(app);
 
-app.use(`/.netlify/functions/api`, router);
 
 server.listen(3000, '192.168.0.136' || 'localhost', function() {
     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')

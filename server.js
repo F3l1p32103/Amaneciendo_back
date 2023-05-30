@@ -73,7 +73,7 @@ franquiciaRoutes(app);
 zoneRoutes(app);
 
 
-server.listen(3000, '192.168.0.136' || 'localhost', function() {
+server.listen(3000, '127.0.0.1' || 'localhost', function() {
     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
 });
 
